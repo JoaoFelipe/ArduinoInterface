@@ -28,7 +28,10 @@ Dependencies:
 		* Create a <name>.pth file at jython/lib/site-packages with the following paths:
 			+ /usr/share/java/RXTXcomm.jar
 			+ /usr/share/java/RXTXcomm-2.2pre2.jar
- 
+		
+Running:
+- jython main.py
+
 Collaborators:
 - Tiago Pimentel Martins da Silva - t.pimentelms@gmail.com
 - Joao Felipe Nicolaci Pimentel	- joaofelipenp@gmail.comy
