@@ -3,7 +3,7 @@ ArduinoInterface
 
 ## Embedded Computing System project - laptop 
 
-Language: jython
+Language: jython (http://www.jython.org/)
 
 This program executes 5 different threads in order to establish the communication between the android and the arduino:
 - RoughMovementThread: Keep sending requests to the website to check if the android app detected a rough movement. If rough movement detected, sends to arduino
