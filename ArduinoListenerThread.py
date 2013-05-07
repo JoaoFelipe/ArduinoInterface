@@ -1,7 +1,22 @@
+"""    ArduinoListenerThread.py
+ Purpose: Final demo
+ Author: Tiago Pimentel
+        t.pimentelms@gmail.com
+         Joao Felipe
+        joaofelipenp@gmail.com
+         Matheus Camargo
+        matheusfc09@gmail.com
+ CSE 467 -- Embedded Computing Systems
+ WUSTL, Spring 2013
+ Date: Apr., 29, 2013
+
+ Description:
+    Listen to arduino commands and realize a post request if the arduino says to turn the lights on of off
+
+"""
+
 from java.lang import Runnable
 
-# ArduinoListenerThread
-# Listen to arduino commands and realize a post request if the arduino says to turn the lights on of off
 class ArduinoListenerThread(Runnable):
     
     def __init__(self, arduino):
