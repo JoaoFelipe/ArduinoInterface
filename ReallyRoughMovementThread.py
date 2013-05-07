@@ -1,11 +1,26 @@
+"""    ReallyRoughMovementThread.py
+ Purpose: Final demo
+ Author: Tiago Pimentel
+        t.pimentelms@gmail.com
+         Joao Felipe
+        joaofelipenp@gmail.com
+         Matheus Camargo
+        matheusfc09@gmail.com
+ CSE 467 -- Embedded Computing Systems
+ WUSTL, Spring 2013
+ Date: Apr., 29, 2013
+
+ Description:
+    Checks if a really rough movement occurred and sends to arduino
+
+"""
+
 import httplib
 from java.lang import Runnable
 from java.lang import Thread as JThread
 
 REALLY_ROUGH_TIME = 1000
 
-# ReallyRoughMovementThread
-# checks if a really rough movement occurred and sends to arduino
 class ReallyRoughMovementThread(Runnable):
     
     def __init__(self, arduino):
