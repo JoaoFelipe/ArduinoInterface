@@ -1,3 +1,19 @@
+"""    BluetoothWaitThread.py
+ Purpose: Final demo
+ Author: Tiago Pimentel
+        t.pimentelms@gmail.com
+         Joao Felipe
+        joaofelipenp@gmail.com
+         Matheus Camargo
+        matheusfc09@gmail.com
+ CSE 467 -- Embedded Computing Systems
+ WUSTL, Spring 2013
+ Date: Apr., 29, 2013
+
+ Description:
+    Starts a bluetooth server and instantiate connections
+
+"""
 from java.lang import Thread as JThread
 from java.lang import Runnable
 from javax.bluetooth import DiscoveryAgent, LocalDevice, UUID
