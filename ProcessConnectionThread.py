@@ -1,3 +1,24 @@
+"""    ProcessConnectionThread.py
+ Purpose: Final demo
+ Author: Tiago Pimentel
+        t.pimentelms@gmail.com
+         Joao Felipe
+        joaofelipenp@gmail.com
+         Matheus Camargo
+        matheusfc09@gmail.com
+ CSE 467 -- Embedded Computing Systems
+ WUSTL, Spring 2013
+ Date: Apr., 29, 2013
+
+ Description:
+    Process the bluetooth connection
+    
+ Version log:
+    30/04/2013 Joao Felipe
+        Sending light status through bluetooth
+
+"""
+
 from java.lang import Runnable
 from java.nio import ByteBuffer
 
