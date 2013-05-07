@@ -1,3 +1,24 @@
+"""    Arduino.py
+ Purpose: Final demo
+ Author: Tiago Pimentel
+        t.pimentelms@gmail.com
+         Joao Felipe
+        joaofelipenp@gmail.com
+         Matheus Camargo
+        matheusfc09@gmail.com
+ CSE 467 -- Embedded Computing Systems
+ WUSTL, Spring 2013
+ Date: Apr., 29, 2013
+ 
+ Invariants:
+    START_TIME > 1000
+    
+ Description:
+    This provides an interface to send data to arduino. 
+    It also starts the threads to monitor the arduino serial, and to realize requests to the website and start the bluetooth server
+
+"""
+
 import glob
 import serial
 import time
