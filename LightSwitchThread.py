@@ -1,3 +1,20 @@
+"""    LightSwitchThread.py
+ Purpose: Final demo
+ Author: Tiago Pimentel
+        t.pimentelms@gmail.com
+         Joao Felipe
+        joaofelipenp@gmail.com
+         Matheus Camargo
+        matheusfc09@gmail.com
+ CSE 467 -- Embedded Computing Systems
+ WUSTL, Spring 2013
+ Date: Apr., 29, 2013
+
+ Description:
+    Checks if the light button was pressed and sends to arduino
+
+"""
+
 import httplib
 import time
 from java.lang import Runnable
@@ -5,8 +22,6 @@ from java.lang import Thread as JThread
 
 LIGHT_POWER_TIME = 1000
 
-# LightSwitchThread
-# checks if the light button was pressed and sends to arduino
 class LightSwitchThread(Runnable):
     
     def __init__(self, arduino):
